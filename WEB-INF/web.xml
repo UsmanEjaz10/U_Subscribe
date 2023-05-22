@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>A_login</servlet-name>
+		<servlet-class>AdminLogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>A_login</servlet-name>
+		<url-pattern>/Admin</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>SignUp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/SignUp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>u_login</servlet-name>
+		<servlet-class>UserLogin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>u_login</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>AH</servlet-name>
+		<servlet-class>AccountHandler</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AH</servlet-name>
+		<url-pattern>/AccountHandler</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>AC</servlet-name>
+		<servlet-class>Add</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AC</servlet-name>
+		<url-pattern>/AddCar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DC</servlet-name>
+		<servlet-class>DeleteCar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DC</servlet-name>
+		<url-pattern>/DeleteCar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddtoCart</servlet-name>
+		<servlet-class>AddCart</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AddtoCart</servlet-name>
+		<url-pattern>/AddCart</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>UpdateCar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/UpdateCar</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>Search</servlet-name>
+		<servlet-class>SearchCar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Search</servlet-name>
+		<url-pattern>/SearchCar</url-pattern>
+	</servlet-mapping>
+
+	
+		<servlet>
+		<servlet-name>Rent</servlet-name>
+		<servlet-class>RentCar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Rent</servlet-name>
+		<url-pattern>/RentCar</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>hour</servlet-name>
+		<servlet-class>SubTotal</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>hour</servlet-name>
+		<url-pattern>/SubTotal</url-pattern>
+	</servlet-mapping>
+
+		<servlet>
+		<servlet-name>remove</servlet-name>
+		<servlet-class>RemoveCar</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>remove</servlet-name>
+		<url-pattern>/RemoveCar</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>

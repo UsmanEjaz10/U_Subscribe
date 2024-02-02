@@ -18,7 +18,7 @@
     
 	<target name="war" depends="compile">
         <war destfile="U_Subscribe.war" webxml="WEB-INF/web.xml">
-            <fileset dir=""/>
+            
             <lib dir="WEB-INF/lib"/>
         </war>
     </target>
